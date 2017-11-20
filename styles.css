@@ -1,0 +1,196 @@
+html{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+h1{
+	font-size: 3em;
+	font-family: 'Helvetica';
+}
+
+#home h1 {
+	margin-top: -1em;
+	width: 1200px;
+}
+
+#event {
+	margin-top: 2em;
+}
+
+.logo img {
+	height: 80px;
+	width: 80px;
+	border: none;
+	z-index: 1;
+}
+
+nav a{
+	font-family: "Helvetica";
+	letter-spacing: 4px;
+	margin: 36px;
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+nav{
+	background-color: #F4BFDA;
+	height: 45px;
+	text-align: center;
+	padding: 1%;
+	padding-top: 2%;
+}
+
+.BV{
+	width: 350px;
+	margin-top: 65px;
+	margin-left: 25px;
+}
+p{
+	font-family: 'Lato';
+}
+
+h4{
+	font-family: 'Helvetica';
+	margin-top: 3em;
+	color: gray;
+	letter-spacing: 6px;
+	text-align: center;
+}
+
+h2{
+	font-family: 'Helvetica';
+	text-align: center;	
+	margin-top: 2em;
+}
+.teksthome p {
+	width: 650px;
+	text-align: justify;
+	margin: 0 auto;
+}
+.tekstabout p, h1{
+	width: 650px;
+	text-align: justify;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.tekstproject p, h1{
+	width: 650px;
+	text-align: justify;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+.tekstevent p {
+	width: 650px;
+	text-align: justify;
+	margin: 0 auto;
+}
+.tekstsponsors p, h1{
+	width: 650px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 5%;
+}
+
+.tekstevent{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.lijn{
+	height: 2px;
+	background-color: lightgray;
+	width: 65%;
+	margin: 0 auto;
+}
+
+.bijwoord{
+	font-size: 0.8em;
+	text-align: center;
+}
+
+.tshirtkader{
+	width: 450px;
+	height: 730px;
+	margin: 0 auto 30px auto;
+}
+
+.tshirtkader img {
+	width: 100%;
+	border: 0px solid #F7F7F7;
+    margin: 0;
+}
+
+.uitlegkader {
+	width: 450px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.slider {
+      width: 965px;
+      height: 325px;
+      border: 15px solid #EEEEEE;
+      margin: 20px auto;
+      background-color: white;
+}
+
+img {
+      border: 1px solid #F7F7F7;
+      width: 220px;
+      float: left;
+      margin: 15px 0 15px 15px;
+}
+
+img:last-child {
+      display: none;
+  }
+
+.koopknop {
+	text-align: center;
+}
+
+#koop {
+	padding: 20px;
+	background-color: #F4BFDA;
+	font-family: 'Helvetica';
+	text-decoration: none;
+	color: black;
+	margin-top: 3em;
+}
+
+#koop:hover {
+	text-decoration: underline;
+}
+
+#download {
+	padding: 20px;
+	background-color: #F4BFDA;
+	font-family: 'Helvetica';
+	text-decoration: none;
+	color: black;
+}
+
+#download:hover {
+	text-decoration: underline;
+}
+
+#sponsors {
+	margin: auto;
+	margin-top: -50px;
+}
+
+#sponsors ul li img {
+	display: inline;
+	height: 100px;
+	width: auto;
+	margin: 30px 10px 40px 10px;
+}
+
+#sponsors ul li {
+	display: block;
+	float: left;
+	list-style-type: none;
+}
